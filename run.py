@@ -1,3 +1,4 @@
+import utils.session
 from app import create_app, db, create_admin_user
 from app.models import User, Task
 from dotenv import load_dotenv
